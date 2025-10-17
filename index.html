@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Moedas</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="title">💱 Conversor de Moedas</h1>
+    <p class="subtitle">Converta moedas em tempo real com estilo e facilidade</p>
+
+    <div class="converter-box">
+      <div class="input-group">
+        <label for="from">De:</label>
+        <select id="from">
+          <option value="USD">🇺🇸 Dólar (USD)</option>
+          <option value="EUR">🇪🇺 Euro (EUR)</option>
+          <option value="GBP">🇬🇧 Libra (GBP)</option>
+          <option value="BRL">🇧🇷 Real (BRL)</option>
+          <option value="JPY">🇯🇵 Iene (JPY)</option>
+          <option value="CNY">🇨🇳 Yuan (CNY)</option>
+          <option value="CAD">🇨🇦 Dólar Canadense (CAD)</option>
+          <option value="AUD">🇦🇺 Dólar Australiano (AUD)</option>
+          <option value="ZAR">🇿🇦 Rand (ZAR)</option>
+          <option value="INR">🇮🇳 Rúpia Indiana (INR)</option>
+          <option value="AOA">🇦🇴 Angola (AOA)</option>
+          
+        </select>
+      </div>
+
+      <div class="input-group">
+        <label for="to">Para:</label>
+        <select id="to">
+          <option value="EUR">🇪🇺 Euro (EUR)</option>
+          <option value="USD">🇺🇸 Dólar (USD)</option>
+          <option value="BRL">🇧🇷 Real (BRL)</option>
+          <option value="JPY">🇯🇵 Iene (JPY)</option>
+          <option value="GBP">🇬🇧 Libra (GBP)</option>
+          <option value="CNY">🇨🇳 Yuan (CNY)</option>
+          <option value="CAD">🇨🇦 Dólar Canadense (CAD)</option>
+          <option value="AUD">🇦🇺 Dólar Australiano (AUD)</option>
+          <option value="CHF">🇨🇭 Franco Suíço (CHF)</option>
+          <option value="ZAR">🇿🇦 Rand (ZAR)</option>
+          <option value="AOA">🇦🇴 Angola (AOA)</option>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <label for="amount">Valor:</label>
+        <input type="number" id="amount" placeholder="Insira o valor...">
+      </div>
+
+      <button class="convert-btn">Converter</button>
+
+      <div class="result-box">
+        <p id="result">Esperando</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Desenvolvido por <strong>Ifraim Lopes</strong> © 2025</p>
+  </footer>
+
+</body>
+</html>
